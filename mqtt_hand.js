@@ -40,3 +40,6 @@ class MqttHandler {
   sendMessage(message) {
     this.mqttClient.publish('mytopic', message);
   }
+}
+
+module.exports = MqttHandler;
